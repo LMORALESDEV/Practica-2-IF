@@ -9,6 +9,11 @@ let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
 if (numero1 > numero2) {
     alert("El primer número es mayor: " + numero1);
     console.log("El primer número es mayor: " + numero1);
+    
+}else if (numero1 === numero2) {
+    alert("Los números son iguales: " + numero1);
+    console.log("Los números son iguales: " + numero1);
+    
 }else  {
     alert("El segundo número es mayor: " + numero2);
     console.log("El segundo número es mayor: " + numero2);
