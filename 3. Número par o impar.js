@@ -6,7 +6,9 @@ Muestra un mensaje indicando el resultado.
 let numero_par_o_impar = prompt("Digite um número: ");
 
  if (numero_par_o_impar % 2 == 0) {
-     console.log("El número es par");
+    alert("El número es par"); 
+    console.log("El número es par");
  }else {
-     console.log("El número es impar");
+    alert("El número es impar"); 
+    console.log("El número es impar");
  }  
