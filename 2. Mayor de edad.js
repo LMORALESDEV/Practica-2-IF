@@ -7,7 +7,9 @@ edad.
 let Edad = prompt("Ingrese su edad:");
 
 if (Edad >= 18) {
+    alert("Usted es mayor de edad.");
     console.log("Usted es mayor de edad.");
 } else {
+    alert("Usted es menor de edad.");
     console.log("Usted es menor de edad.");
 }
