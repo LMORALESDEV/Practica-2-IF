@@ -8,9 +8,12 @@ if (hora >= 0 && hora < 11) {
     console.log("Es de mañana.");
 }
 else if (hora >= 12 && hora < 19) {
+    alert("Es de tarde.");
     console.log("Es de tarde.");
 } else if (hora >= 19 && hora <= 24) {
+    alert("Es de noche.");
     console.log("Es de noche.");
 } else {
+    alert("Hora no válida. Debe estar entre 0 y 24.");
     console.log("Hora no válida. Debe estar entre 0 y 24.");
 }
