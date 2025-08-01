@@ -5,8 +5,10 @@ Muestra un mensaje indicando si el número está en el rango o no.*/
 numero = prompt("Ingrese un número:");
 
 if (numero >= 1 && numero <= 100) {
+    alert("El número está en el rango de 1 a 100.");
     console.log("El número está en el rango de 1 a 100.");
 }
 else {
+    alert("El número no está en el rango de 1 a 100.");
     console.log("El número no está en el rango de 1 a 100.");
 }
